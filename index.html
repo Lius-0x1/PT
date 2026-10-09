@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Serif+4:wght@400;600&display=swap"
+  rel="stylesheet"
+/>
+<title>Julius Adeniyi | Surveying and web development</title>
+<meta name="description" content="Julius Adeniyi, a Surveying and Geoinformatics student at FUTA who builds web apps and survey tools." />
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("theme");
+      if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  })();
+</script>
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
