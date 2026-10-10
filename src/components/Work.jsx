@@ -27,7 +27,7 @@ const TRACKS = {
         stack: "JavaScript",
         kind: "Live platform",
         role: "I currently manage and maintain it",
-        text: "A platform where students find resources and opportunities before they graduate.",
+        text: "A platform where students document their undergraduate stories ,project and what they are building before they graduate.",
         tags: ["JavaScript", "Vercel", "next.js"],
         image: "/work/btg.png",
         focus: "left",
