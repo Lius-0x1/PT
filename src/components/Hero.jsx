@@ -69,7 +69,7 @@ export default function Hero() {
   return (
     <section id="top" className="bg-paper text-ink">
       {/* Mobile order: meta, name, photo, intro. Desktop: meta on top, name left, photo right, intro under the name. */}
-      <div className="mx-auto grid min-h-[calc(100svh-4rem)] max-w-6xl content-center gap-8 px-6 py-10 md:grid-cols-[1.15fr_0.85fr] md:gap-x-10 md:px-10 md:py-16">
+      <div className="mx-auto grid max-w-6xl content-start gap-6 px-6 pb-12 pt-6 md:grid-cols-[1.15fr_0.85fr] md:gap-x-10 md:px-10 md:pb-16 md:pt-8">
         <div className="flex flex-wrap items-center justify-between gap-x-8 gap-y-2 font-[family-name:var(--font-display)] text-sm text-ink/75 md:col-span-2 md:row-start-1">
           <span>{META_LEFT}</span>
           <span className="flex flex-wrap items-center gap-x-4 gap-y-1">
